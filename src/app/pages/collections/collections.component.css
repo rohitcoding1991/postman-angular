@@ -1,0 +1,79 @@
+.collection{
+    height: 90vh;
+    width: 254px;
+    background-color: rgb(230, 217, 233);
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: normal;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  
+}
+.collections{
+    height: 90vh;
+    width: 254px;
+    background-color: rgb(230, 217, 233);
+
+
+}
+.collections p{
+    color: red;
+}
+
+.collectionss{
+    color: rgb(0, 0, 0);
+    width: 254px;
+    display: flex;
+    height: 32px;
+    background-color: #d8b5fd;
+    flex-direction: column;
+   padding-top: 4px;
+    align-items: center;
+    font-size: large;
+    border: 1px solid white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, -0.7) 0px 3px 7px -3px;
+    
+
+}
+.mb-1 {
+    margin-bottom: 0.25rem!important;
+}
+.btn-toggle[aria-expanded="true"] {
+    color: rgba(0, 0, 0, .85);
+}
+.fw-normal {
+    font-weight: 400!important;
+}
+
+.pb-1 {
+    padding-bottom: 0.25rem!important;
+}
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+.small, small {
+    font-size: .875em;
+}
+.list-group{
+    width: 254px;
+}
+
+.settingicns
+{
+    font-weight: 900;
+    position: relative;
+    right: 12px;
+}
+.list-group-item{
+    cursor: pointer;
+}
+.dot-icon {
+    position: relative;
+    right: 6px;
+  }
+  .list-group-item{
+    background-image: linear-gradient(172deg, #ff8b005c, #6700ff4a);
+  }
