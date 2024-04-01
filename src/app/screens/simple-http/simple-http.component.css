@@ -1,0 +1,533 @@
+.http-div {
+    border: 3px solid #828282;
+    box-sizing: border-box;
+    border-radius: 7px;
+    width: 60%;
+    margin: 6px;
+    padding: 20px;
+    background-image: linear-gradient(314deg, #ff8b005c, #6700ff4a);
+    margin-bottom: 118px;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 1.16) 0px 0px 6px, rgba(0, 0, 0, 0.23) 0px 0px 6px;
+
+   
+  }
+  .body-wrapper {
+    display: flex;
+    height: 100vh;
+}
+input.form-control.req-input {
+  border-left: 0 !important;
+}
+
+a.remove-row {
+  color: black;
+  font-size: 25px;
+  line-height: 0;
+}
+.inversemain{
+    background-image: linear-gradient(351deg, #ff8b0066, #6700ff4f);
+}
+h3.post-heading {
+    font-family: Roboto;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-bottom: 30px;
+}
+ul.nav.tab-div.nav-tabs.nav-stacked {
+    padding: 10px 10px 0;
+}
+
+.tab-div li.nav-item {
+    min-width: 180px;
+    border-bottom: 1px solid gainsboro;
+    padding-bottom: 1px;
+}
+
+.tab-div li.nav-item a {
+
+    padding: 6px 15px;
+}
+
+li.nav-item.add-tab a:hover, li.nav-item.add-tab a:active, li.nav-item.add-tab a:focus {
+    border: 1px solid white;
+}
+
+li.nav-item.add-tab {
+    min-width: auto;
+    border: 1px solid aliceblue;
+    margin-bottom: 1px;
+    margin-left: 3px;
+    padding: 5px 10px;
+    border-radius: 5px 5px 0 0;
+    background: aliceblue;
+}
+
+li.nav-item.add-tab a {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+span.add-icon {
+    width: 14px;
+    height: 2px;
+    background: #3f51b5;
+    display: block;
+    margin-top: 10px;
+    position: relative;
+}
+
+span.add-icon:before {
+    position: absolute;
+    top: -6px;
+    left: 44%;
+    width: 2px;
+    height: 13px;
+    background: #3f51b5;
+    content: "";
+}
+.tab-content.opt-div {
+    padding: 0px;
+    background: white;
+}
+
+.tab-div li.nav-item a.active {
+    background: #3f51b5;
+    color: white;
+}
+.request-div {
+    margin-bottom: 30px;
+}
+
+button.req-btn {
+    background: aliceblue;
+    border-radius: 5px 0 0 5px;
+    border-color: #cbcbcb;
+    color: #686868;
+}
+
+input#name {
+    border-left: 0;
+    font-size: 14px;
+    padding: 8px 10px;
+    height: auto;
+}
+
+.req-input {
+    border-color: #BDBDBD;
+    background: white;
+    border-width: 2px;
+}
+
+button.btn.btn-light.save {
+    background: aliceblue;
+    color: #3F51B5;
+}
+
+.response-div {
+    height: 75vh;
+}
+
+.response-div h1 {
+    background: #f0f8ff;
+    font-size: 17px;
+    padding: 10px;
+    text-align: center;
+    color: #3F51B5;
+    font-weight: 400;
+}
+.response {
+    height: 100%;
+    border: 1px solid gainsboro;
+    margin: 10px;
+    padding: 15px;
+    position: relative;
+}
+
+p.placeholder {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+button.btn.btn-primary.send {
+    background: #3F51B5;
+    border-color: #3F51B5;
+    padding: 6px 25px;
+    width: 45%;
+}
+button.btn.btn-light.save {
+    width: 45%;
+}
+.header-options {
+    padding: 0;
+    background: no-repeat;
+    box-shadow: rgb(1 126 206) 0px 0px 6px, rgba(0, 0, 0, 0.23) 0px 0px 6px;
+    border-radius: 5px;
+    overflow: hidden;
+  min-height: 435px;
+}
+
+.header-opt-div li.nav-item a {
+    border: none;
+    background: none !important;
+    margin: 0;
+    color: #24292e;
+    padding: 7px 15px 8px;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: center;
+  position: relative;
+  border-top: none;
+  border-radius: 5px !important;
+}
+.header-opt-div li.nav-item label {
+  margin-bottom: 0;
+}
+.header-opt-div li.nav-item label input {
+
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+
+}
+.header-opt-div li.nav-item a.active {
+    background: #24292E !important;
+    color: #ffffff;
+
+}
+ul.nav.nav-tabs.header-opt-div li {
+    padding: 10px;
+    padding-right: 0;
+}
+
+.wrapper-div {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    background: white;
+    z-index: 9999;
+}
+
+.response-div {
+    padding: 20px 0;
+}
+
+.editor {
+    position: relative;
+    min-height: 300px;
+}
+
+.tab-content.opt-div {
+    padding: 0px;
+}
+table.table {
+    background: white;
+}
+.table th, .table td {
+    padding: 10px !important;
+}
+input.p-input {
+    border: none;
+    outline: none;
+    font-size: 14px;
+    width: 100%;
+
+}
+.table thead th {
+    padding: 10px !important;
+    font-size: 14px;
+    font-weight: 600;
+    border-bottom: 0;
+    color: #24292e;
+}
+.table th, .table td {
+    padding: 0.75rem;
+    vertical-align: top;
+
+}
+
+select#request-select {
+    border: 2px solid #bdbdbd;
+    border-radius: 5px 0 0 5px;
+    padding-left: 6px;
+
+    font-family: Helvetica Neue;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+select#request-select {
+    border: 2px solid #bdbdbd;
+    border-radius: 5px 0 0 5px;
+}
+.format-div {
+    padding: 10px;
+    border-bottom: 1px solid gainsboro;
+}
+.format-div label {
+    margin-bottom: 0;
+    margin-right: 10px;
+}
+textarea.json-text {
+    width: 100%;
+    height: 132px;
+    border: none;
+    resize: none;
+    outline: none;
+    overflow-y: auto;
+    padding:15px;
+}
+button.save-btn {
+    background: #24292E;
+    color: white;
+    border: none;
+    padding: 8px 20px;
+    margin-top: 30px;
+    border-radius: 5px;
+    width: 110px;
+}
+
+.collection-container {
+  position: relative;
+  border: 1px solid #d3d0d0;
+  width: 400px;
+  height: 100%;
+}
+
+.inner-side-header {
+  background-color: #f1f1f1;
+  height: 40px;
+}
+
+.inner-lower-col {
+  border-top: solid 1px #d3d0d0;
+  display: flex;
+  flex-wrap: auto;
+  height: 96%;
+}
+
+.first-col {
+  padding: 5px;
+  height: 100%;
+  width: 135px;
+  /* border: 1px #b1abab; */
+  background-color: #f1f1f1;
+}
+
+.second-col {
+  padding: 5px;
+  width: 260px;
+ background: rgb(230, 217, 233);
+}
+
+.custom-btn {
+  right: 15px;
+    position: absolute;
+    background-color: #d9d9d9;
+    width: 50px;
+    height: 25px;
+    padding: 1px;
+    margin: 5px;
+}
+
+.tab-container {
+  box-sizing: border-box;
+  height: 43px;
+  width: 100%;
+  border: solid 1px #d3d0d0;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #f3f3ff;
+}
+
+.main-tab {
+    display: -webkit-box;
+    display: flex;
+    height: 96%;
+    width: 100%;
+    flex-wrap: wrap;
+    /* -webkit-box-pack: center; */
+    flex-direction: row;
+    align-content: stretch;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+
+.tab {
+  width: 160px;
+  border-right: solid 1px #d3d0d0;
+  position: relative;
+  margin-left: 20px;
+  margin-right: 15px;
+  margin-top: 7px;
+  cursor: pointer;
+}
+
+.add-tab {
+  font-size: 26px;
+  color: gray;
+  margin-left: 0px;
+  cursor: pointer;
+}
+
+.tab-content {
+  position: relative;
+}
+
+/* Hide the "Remove Tab" button by default */
+.remove-button {
+  position: absolute;
+  left: 119px;
+  margin: 1px;
+  border: gray;
+  color: gray;
+  display: none;
+  top: 0px;
+  cursor: pointer;
+}
+
+/* Show the "Remove Tab" button when hovering over the circle */
+.circle:hover + .remove-button {
+  display: block;
+}
+
+@media screen and (max-width: 992px) {
+    .http-div {
+        width: 70%;
+
+    }
+}
+@media screen and (max-width: 768px) {
+    .http-div {
+        width: 80%;
+
+    }
+}
+@media screen and (max-width: 500px) {
+    .http-div {
+        width: 90%;
+
+    }
+}
+.responcebuttton{
+    margin: 2px;
+    height: 35px;
+  
+}
+.buttonstwo{
+    display: -webkit-box;
+    top: -6px;
+    left: 13px;
+    display: flex;
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+}
+.iconssave{
+    font-size: 20px;
+    position: relative;
+    left: 5px;
+}
+.requestcontent{
+    box-shadow:  rgb(143 179 222) 0px 0px 6px, rgba(0, 0, 0, 0.23) 0px 0px 6px;
+}
+.flash{
+    color: #429bff;
+    position: relative;
+    font-size: 23px;
+    left: -6px;
+}
+.firstrow{
+    background: #f3f3ff;
+    width: 408px;
+    border-right: 2px solid #dbc4c4;
+}
+.response-body {
+    background-color: #f7e6fd;
+    height: 200px; /* Set the desired height */
+    border-top: 3px solid #d0c6de;
+    overflow-y: auto; /* Add a vertical scrollbar when content overflows */
+    scrollbar-width: thin;
+    scrollbar-color: #7c1515 #910bc2;
+    padding: 10px;
+}
+.response-body::-webkit-scrollbar {
+    width: 20px; /* Adjust scrollbar width as needed */
+}
+
+.response-body::-webkit-scrollbar-track {
+    background-color: #fdfcfd; /* Track color */
+}
+
+.response-body::-webkit-scrollbar-thumb {
+    background-color: #2986f1; /* Thumb color */
+    border-radius: 1px; /* Rounded corners */
+}
+.maintabone{
+    width: -webkit-fill-available;
+    display: -webkit-box;
+    display: flex;
+    width: 268px;
+  margin-top: -31px;
+    flex-direction: column;
+    margin-left: -168px;
+    align-content: stretch;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: start;
+    align-items: flex-start;
+    background-image: linear-gradient(314deg, #ff8b005c, #6700ff4a);
+
+    
+}
+.urllisting{
+    display: -webkit-box;
+    background: white;
+    display: flex;
+    background-image: linear-gradient(172deg, #ff8b005c, #6700ff4a);
+    padding: 8px;
+    /* box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 6px, rgba(0, 0, 0, -0.77) 0px 0px 6px; */
+    list-style: auto;
+    font-size: 11px;
+    margin-left: -23px;
+  
+}
+.listheading{
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 6px, rgba(0, 0, 0, -1.77) 0px 0px 6px;
+    font-size: 19px;
+    width: 266px;
+    display: flex;
+    left: 1px;
+    color: #225ea2;
+    top: 3px;
+    margin-bottom: 27px;
+    align-content: center;
+    justify-content: center;
+}
+.responceData{
+    font-weight: bold;
+    color: #004fbd;
+}
+
+
