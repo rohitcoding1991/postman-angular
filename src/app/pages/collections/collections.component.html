@@ -1,0 +1,339 @@
+<div class="maincontent">
+    <div class="collection" *ngIf="activeSection === 'collection'">
+      <p class="collectionss">{{ "collection" | titlecase }}</p>
+      <ul class="list-group">
+        <li
+          class="list-group-item active" 
+          aria-current="true"
+          (click)="toggleCollapse()"
+        >
+          <i
+            class="fas"
+            [ngClass]="{
+              'fa-chevron-up': isCollapsed,
+              'fa-chevron-down': !isCollapsed
+            }"
+          ></i>
+          An active item
+        </li>
+        <ng-container *ngIf="isCollapsed">
+          <li class="list-group-item">
+            <i class="fas fa-yen-sign dot-icon"></i> collection item-1
+          </li>
+          <li class="list-group-item">
+            <i class="fas fa-wind dot-icon"></i>collection item-2
+          </li>
+          <li class="list-group-item">
+            <i class="fas fa-virus-slash dot-icon"></i> collection item-3
+          </li>
+          <li class="list-group-item">
+            <i class="fas fa-vr-cardboard dot-icon"></i>collection item-4
+          </li>
+          <li class="list-group-item">
+            <i class="fas fa-vest-patches dot-icon"></i> collection item-5
+          </li>
+          <li class="list-group-item">
+            <i class="fas fa-utensil-spoon dot-icon"></i>collection item-6
+          </li>
+          <li class="list-group-item">
+            <i class="fas fa-umbrella-beach dot-icon"></i> collection item-7
+          </li>
+          <li class="list-group-item">
+            <i class="fas fa-ticket-alt dot-icon"></i> collection item-8
+          </li>
+        </ng-container>
+        <li class="list-group-item">
+          <i class="fas fa-cog settingicns ml-2"></i>Settings
+        </li>
+      </ul>
+    </div>
+    <div class="collection" *ngIf="activeSection === 'environment'">
+      <p class="collectionss">{{ "environment" | titlecase }}</p>
+      <ul class="list-group">
+        <li
+          class="list-group-item active"
+          aria-current="true"
+          (click)="toggleCollapse()"
+        >
+          <i
+            class="fas"
+            [ngClass]="{
+              'fa-chevron-up': isCollapsed,
+              'fa-chevron-down': !isCollapsed
+            }"
+          ></i>
+          An active item
+        </li>
+        <ng-container *ngIf="isCollapsed">
+          <li class="list-group-item">
+            <i class="fas fa-yen-sign dot-icon"></i> environment item-1
+          </li>
+          <li class="list-group-item">
+            <i class="fas fa-wind dot-icon"></i>environment item-2
+          </li>
+          <li class="list-group-item">
+            <i class="fas fa-virus-slash dot-icon"></i> environment item-3
+          </li>
+          <li class="list-group-item">
+            <i class="fas fa-vr-cardboard dot-icon"></i>environment item-4
+          </li>
+          <li class="list-group-item">
+            <i class="fas fa-vest-patches dot-icon"></i> environment item-5
+          </li>
+          <li class="list-group-item">
+            <i class="fas fa-utensil-spoon dot-icon"></i>environment item-6
+          </li>
+          <li class="list-group-item">
+            <i class="fas fa-umbrella-beach dot-icon"></i> environment item-7
+          </li>
+          <li class="list-group-item">
+            <i class="fas fa-ticket-alt dot-icon"></i> environment item-8
+          </li>
+        </ng-container>
+        <li class="list-group-item">
+          <i class="fas fa-cog settingicns ml-2"></i>Settings
+        </li>
+      </ul>
+    </div>
+    <div class="collection" *ngIf="activeSection === 'apis'">
+      <p class="collectionss">{{ "apis" | titlecase }}</p>
+      <ul class="list-group">
+        <li
+          class="list-group-item active"
+          aria-current="true"
+          (click)="toggleCollapse()"
+        >
+          <i
+            class="fas"
+            [ngClass]="{
+              'fa-chevron-up': isCollapsed,
+              'fa-chevron-down': !isCollapsed
+            }"
+          ></i>
+          An active item
+        </li>
+        <ng-container *ngIf="isCollapsed">
+          <li class="list-group-item">
+            <i class="fas fa-yen-sign dot-icon"></i> Apis item-1
+          </li>
+          <li class="list-group-item">
+            <i class="fas fa-wind dot-icon"></i> Apis item-2
+          </li>
+          <li class="list-group-item">
+            <i class="fas fa-virus-slash dot-icon"></i> Apis item-3
+          </li>
+          <li class="list-group-item">
+            <i class="fas fa-vr-cardboard dot-icon"></i> Apis item-4
+          </li>
+          <li class="list-group-item">
+            <i class="fas fa-vest-patches dot-icon"></i> Apis item-5
+          </li>
+          <li class="list-group-item">
+            <i class="fas fa-utensil-spoon dot-icon"></i> Apis item-6
+          </li>
+          <li class="list-group-item">
+            <i class="fas fa-umbrella-beach dot-icon"></i> Apis item-7
+          </li>
+          <li class="list-group-item">
+            <i class="fas fa-ticket-alt dot-icon"></i> Apis item-8
+          </li>
+        </ng-container>
+        <li class="list-group-item">
+          <i class="fas fa-cog settingicns ml-2"></i>Settings
+        </li>
+      </ul>
+    </div>
+    <div class="collection" *ngIf="activeSection === 'mock-services'">
+      <p class="collectionss">{{ "mock-services" | titlecase }}</p>
+      <ul class="list-group">
+        <li
+          class="list-group-item active"
+          aria-current="true"
+          (click)="toggleCollapse()"
+        >
+          <i
+            class="fas"
+            [ngClass]="{
+              'fa-chevron-up': isCollapsed,
+              'fa-chevron-down': !isCollapsed
+            }"
+          ></i>
+          An active item
+        </li>
+        <ng-container *ngIf="isCollapsed">
+          <li class="list-group-item">
+            <i class="fas fa-yen-sign dot-icon"></i> mock-services item-1
+          </li>
+          <li class="list-group-item">
+            <i class="fas fa-wind dot-icon"></i> mock-services item-2
+          </li>
+          <li class="list-group-item">
+            <i class="fas fa-virus-slash dot-icon"></i> mock-services item-3
+          </li>
+          <li class="list-group-item">
+            <i class="fas fa-vr-cardboard dot-icon"></i> mock-services item-4
+          </li>
+          <li class="list-group-item">
+            <i class="fas fa-vest-patches dot-icon"></i> mock-services item-5
+          </li>
+          <li class="list-group-item">
+            <i class="fas fa-utensil-spoon dot-icon"></i> mock-services item-6
+          </li>
+          <li class="list-group-item">
+            <i class="fas fa-umbrella-beach dot-icon"></i> mock-services item-7
+          </li>
+          <li class="list-group-item">
+            <i class="fas fa-ticket-alt dot-icon"></i> mock-services item-8
+          </li>
+        </ng-container>
+        <li class="list-group-item">
+          <i class="fas fa-cog settingicns ml-2"></i>Settings
+        </li>
+      </ul>
+    </div>
+    <div class="collection" *ngIf="activeSection === 'monitor'">
+      <p class="collectionss">{{ "monitor" | titlecase }}</p>
+      <ul class="list-group">
+        <li
+          class="list-group-item active"
+          aria-current="true"
+          (click)="toggleCollapse()"
+        >
+          <i
+            class="fas"
+            [ngClass]="{
+              'fa-chevron-up': isCollapsed,
+              'fa-chevron-down': !isCollapsed
+            }"
+          ></i>
+          An active item
+        </li>
+        <ng-container *ngIf="isCollapsed">
+          <li class="list-group-item">
+            <i class="fas fa-yen-sign dot-icon"></i> monitor item-1
+          </li>
+          <li class="list-group-item">
+            <i class="fas fa-wind dot-icon"></i> monitor item-2
+          </li>
+          <li class="list-group-item">
+            <i class="fas fa-virus-slash dot-icon"></i> monitor item-3
+          </li>
+          <li class="list-group-item">
+            <i class="fas fa-vr-cardboard dot-icon"></i> monitor item-4
+          </li>
+          <li class="list-group-item">
+            <i class="fas fa-vest-patches dot-icon"></i> monitor item-5
+          </li>
+          <li class="list-group-item">
+            <i class="fas fa-utensil-spoon dot-icon"></i> monitor item-6
+          </li>
+          <li class="list-group-item">
+            <i class="fas fa-umbrella-beach dot-icon"></i> monitor item-7
+          </li>
+          <li class="list-group-item">
+            <i class="fas fa-ticket-alt dot-icon"></i> monitor item-8
+          </li>
+        </ng-container>
+        <li class="list-group-item">
+          <i class="fas fa-cog settingicns ml-2"></i>Settings
+        </li>
+      </ul>
+    </div>
+    <div class="collection" *ngIf="activeSection === 'flow'">
+      <p class="collectionss">{{ "flow" | titlecase }}</p>
+      <ul class="list-group">
+        <li
+          class="list-group-item active"
+          aria-current="true"
+          (click)="toggleCollapse()"
+        >
+          <i
+            class="fas"
+            [ngClass]="{
+              'fa-chevron-up': isCollapsed,
+              'fa-chevron-down': !isCollapsed
+            }"
+          ></i>
+          An active item
+        </li>
+        <ng-container *ngIf="isCollapsed">
+          <li class="list-group-item">
+            <i class="fas fa-yen-sign dot-icon"></i> flow item-1
+          </li>
+          <li class="list-group-item">
+            <i class="fas fa-wind dot-icon"></i> flow item-2
+          </li>
+          <li class="list-group-item">
+            <i class="fas fa-virus-slash dot-icon"></i> flow item-3
+          </li>
+          <li class="list-group-item">
+            <i class="fas fa-vr-cardboard dot-icon"></i> flow item-4
+          </li>
+          <li class="list-group-item">
+            <i class="fas fa-vest-patches dot-icon"></i> flow item-5
+          </li>
+          <li class="list-group-item">
+            <i class="fas fa-utensil-spoon dot-icon"></i> flow item-6
+          </li>
+          <li class="list-group-item">
+            <i class="fas fa-umbrella-beach dot-icon"></i> flow item-7
+          </li>
+          <li class="list-group-item">
+            <i class="fas fa-ticket-alt dot-icon"></i> flow item-8
+          </li>
+        </ng-container>
+        <li class="list-group-item">
+          <i class="fas fa-cog settingicns ml-2"></i>Settings
+        </li>
+      </ul>
+    </div>
+    <div class="collection" *ngIf="activeSection === 'history'">
+      <p class="collectionss">{{ "history" | titlecase }}</p>
+      <ul class="list-group">
+        <li
+          class="list-group-item active"
+          aria-current="true"
+          (click)="toggleCollapse()"
+        >
+          <i
+            class="fas"
+            [ngClass]="{
+              'fa-chevron-up': isCollapsed,
+              'fa-chevron-down': !isCollapsed
+            }"
+          ></i>
+          An active item
+        </li>
+        <ng-container *ngIf="isCollapsed">
+          <li class="list-group-item">
+            <i class="fas fa-yen-sign dot-icon"></i> history item-1
+          </li>
+          <li class="list-group-item">
+            <i class="fas fa-wind dot-icon"></i>history item-2
+          </li>
+          <li class="list-group-item">
+            <i class="fas fa-virus-slash dot-icon"></i> history item-3
+          </li>
+          <li class="list-group-item">
+            <i class="fas fa-vr-cardboard dot-icon"></i>history item-4
+          </li>
+          <li class="list-group-item">
+            <i class="fas fa-vest-patches dot-icon"></i> history item-5
+          </li>
+          <li class="list-group-item">
+            <i class="fas fa-utensil-spoon dot-icon"></i> history item-6
+          </li>
+          <li class="list-group-item">
+            <i class="fas fa-umbrella-beach dot-icon"></i> history item-7
+          </li>
+          <li class="list-group-item">
+            <i class="fas fa-ticket-alt dot-icon"></i> history item-8
+          </li>
+        </ng-container>
+        <li class="list-group-item">
+          <i class="fas fa-cog settingicns ml-2"></i>Settings
+        </li>
+      </ul>
+    </div>
+  </div>
+  

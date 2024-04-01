@@ -1,0 +1,73 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+.left,
+.center,
+.right {
+  flex: 1;
+  text-align: center;
+}
+
+.left {
+  order: 1;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.center {
+  order: 2;
+  display: flex;
+  justify-content: center;
+}
+
+.right {
+  order: 3;
+  display: flex;
+  justify-content: flex-end;
+}
+label {
+  margin-left: 10px;
+}
+.iconss {
+  display: flex;
+  width: 139px;
+  -webkit-box-pack: justify;
+  justify-content: space-evenly;
+  margin-top: 6px;
+}
+.fa-cog {
+  font-size: 23px;
+  cursor: pointer;
+}
+.fa-bell {
+  font-size: 23px;
+  cursor: pointer;
+}
+.fa-heart {
+  font-size: 23px;
+  cursor: pointer;
+}
+.imgs {
+  height: 32px;
+  width: 32px;
+  margin-top: -4px;
+  cursor: pointer;
+}
+.firsthead {
+  font-weight: 900;
+  cursor: pointer;
+}
+.firsthead:hover {
+  background-color: #4d4949;
+}
+.fa-bars {
+  font-size: 26px;
+  cursor: pointer;
+  margin-top: 3px;
+}
