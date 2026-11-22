@@ -36,4 +36,3 @@ branch_structure.json
 .gitignore
 
 !.env.example
-config.bat
